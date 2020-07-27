@@ -1,0 +1,45 @@
+body{background-image: url(receta/fondo.jpg);
+    background-size: 20%;}
+#wrapper{background-color: whitesmoke;
+      width: 70%;
+      /*height: 100vh;*/ /*Le pusimos al principio un alto para poderv ver el rectángulo*/
+      margin: 0 auto;
+      padding: 5%;
+      border: rgb(100, 72, 70) solid 7px;
+               border-radius: 20px;
+               /*box-shadow: -10px 20px 10px grey;*/}
+#wrapper h1{font-family: 'Permanent Marker', cursive;
+          font-size: 275%;
+          text-align: center;
+          color:rgb(241, 184, 190);
+          text-shadow: 2px 2px rgb(100, 72, 70);}
+#wrapper h2{font-family: 'Permanent Marker', cursive;
+          font-size: 170%;
+          text-align: left;
+          color:rgb(251, 221, 107);
+          text-shadow: 2px 2px rgb(100, 72, 70);}
+#wrapper p{font-family: 'Indie Flower', cursive;
+         font-size: 150%;
+         text-align: center;}
+#wrapper ul{font-family: 'Indie Flower', cursive;
+         font-size: 100%;
+         text-align: left;}
+#wrapper ol{font-family: 'Indie Flower', cursive;
+         font-size: 100%;
+         text-align: left;}
+#wrapper dt{background-color: rgba(239, 62, 88, 0.5);
+          font-weight: bold;
+          display: inline-block;
+          padding: 8px;
+          border-radius: 5px;}
+#wrapper dl{font-family: 'Indie Flower', cursive;}
+#wrapper dd{margin-inline-start: 0;}
+.mitad{width: 50%;
+    float: left;} 
+.mitad img{width: 100%;}
+.finfloat{clear:both}
+@media screen and (max-width: 800px) {
+  .mitad{width: 90%;
+        padding: 5%}
+}
+#autora span{text-decoration: underline;}
